@@ -40,7 +40,11 @@ const QuizDemonym = (props) => {
             <img width="200px" src={countryObj[randomQuiz].flag} />
             <h2>{countryObj[randomQuiz].name}</h2>
             {
-                shuffle(answerArr)
+                shuffle(answerArr).map(answer => (
+                    <div>
+                    <input type="checkbox"/><label>{answer}</label>
+                    </div>
+                ))
             }
         </div>
     )
