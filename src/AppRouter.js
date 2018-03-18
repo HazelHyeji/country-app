@@ -4,8 +4,6 @@ import CountryApp from './components/CountryApp';
 import AllCountry from './components/AllCountry';
 import Search from './components/Search';
 import Quiz from './components/Quiz';
-import QuizCountry from './components/QuizCoutry';
-import QuizDemonym from './components/QuizDemonym';
 
 class AppRouter extends Component {
   constructor(props) {

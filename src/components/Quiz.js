@@ -3,7 +3,7 @@ import { Route, Link } from 'react-router-dom';
 import Data from '../countrydata';
 import GoBack from './GoBack';
 import QuizDemonym from './QuizDemonym';
-import QuizCountry from './QuizCoutry';
+import QuizCountry from './QuizCountry';
 
 class Quiz extends React.Component {
     constructor(props) {
