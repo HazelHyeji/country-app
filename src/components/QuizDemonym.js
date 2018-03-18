@@ -6,11 +6,24 @@ const QuizDemonym = (props) => {
     const randomQuiz = Math.floor(Math.random() * countryObjLength);
     const randomAnswerGenerator = (number) => Math.floor(Math.random() * number);
     console.log(countryObj[randomAnswerGenerator(countryObjLength)].name);
+
+    // Pseudocode:
+    // 1. Put the data inside an array of objects (NOT hardcoded in the JSX)
+        // 1 correct + 2 random
+    
+    // 2. Make another variable which randomizes the order of that array
+
+    // 3. Render that array by mapping through it in the JSX below
+        // Only write <input> ONCE
+
     return (
         <div>
             <h1>{countryObj[randomQuiz].name}의 국민들은 영어로 어떻게 말할까요?</h1>
                 <img width="200px" src={countryObj[randomQuiz].flag} />
                 <h2>{countryObj[randomQuiz].name}</h2>
+                {
+                    
+                }
                 <input type="checkbox" value={countryObj[randomQuiz].flag}/><label>{countryObj[randomQuiz].demonym}</label>
                 <input type="checkbox" value={countryObj[randomAnswerGenerator(countryObjLength)].demonym}/><label>{countryObj[randomAnswerGenerator(countryObjLength)].demonym}</label>
                 <input type="checkbox" value={countryObj[randomAnswerGenerator(countryObjLength)].demonym}/><label>{countryObj[randomAnswerGenerator(countryObjLength)].demonym}</label>
