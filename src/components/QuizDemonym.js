@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Data from '../countrydata';
 class QuizDemonym extends Component {
     constructor(props) {
         super(props);
+        this.onClick = this.onClick.bind(this);
         this.state = {
             countryObj: Object.values(Data),
-            showReview: false,
+            showReview: null,
             randomQuiz: Math.floor(Math.random() * 250),
         };
     }
@@ -14,6 +16,14 @@ class QuizDemonym extends Component {
             this.setState({ showReview: true })
         }
     }
+    newQuiz = () => {
+        console.log("you click. this")
+        this.setState({
+            showReview: null,
+            randomQuiz: Math.floor(Math.random() * 250), 
+        })
+    }
+
     render() {
         const countryObjLength = this.state.countryObj.length;
         const randomAnswerGenerator = (number) => Math.floor(Math.random() * number);
@@ -54,7 +64,13 @@ class QuizDemonym extends Component {
                         </div>
                     ))
                 }
-                {this.state.showReview ? <h1>you got it right</h1> : <h1>Try again</h1>}
+                {
+                    this.state.showReview &&
+                    <div>
+                        <h1>you got it right!{this.state.countryObj[this.state.randomQuiz].demonym} </h1>
+                        <Link to="/Quiz/demonym"><button onClick={this.newQuiz}>Next</button></Link>
+                    </div>
+                }
             </div>
         );
     }
