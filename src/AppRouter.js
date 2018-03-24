@@ -7,10 +7,10 @@ import Search from './components/Search';
 import Quiz from './components/Quiz';
 
 class AppRouter extends Component {
-  constructor(props) {
-    super(props);
-    let match = props.match;
-  }
+  // constructor(props) {
+  //   super(props);
+  //   let match = props.match;
+  // }
   render() {
     return (
       <BrowserRouter>

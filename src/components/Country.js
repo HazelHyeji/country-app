@@ -6,7 +6,7 @@ const Country = (props) => (
             props.nations.map(nation => (
                 <div key={nation.name}>
                     <h1>{nation.name}</h1>
-                    <img src={nation.flag} width="200px" />
+                    <img src={nation.flag} width="200px" alt={nation.flag}/>
                     <p>{nation.demonym}</p>
                     <p>{nation.capital}</p>
                 </div>

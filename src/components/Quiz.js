@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Route, Link } from 'react-router-dom';
-import Data from '../countrydata';
 import GoBack from './GoBack';
 import QuizDemonym from './QuizDemonym';
 import QuizCountry from './QuizCountry';
