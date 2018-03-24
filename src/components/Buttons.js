@@ -4,7 +4,7 @@ const Buttons = () => (
     <div>
         <Link to="/Search"><button>Search</button></Link>
         <Link to="/AllCountry"><button>All Country</button></Link>
-        <Link to="/Quiz"><button>Quiz</button></Link>
+        <Link to="/Quiz" className="hansans"><button>한글</button></Link>
     </div>
 );
 
