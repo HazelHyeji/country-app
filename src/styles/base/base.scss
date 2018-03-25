@@ -6,10 +6,9 @@
           url('../fonts/leaguespartan.woff2') format('woff2'),
           url('../fonts/leaguespartan.woff') format('woff'),
           url('../fonts/leaguespartan.ttf') format('truetype');
-  }  
+}  
 body{
     background: $blue;
-    font-family: 'leaguespartan';
 }
 button{
     background-color: $pink;
@@ -17,4 +16,11 @@ button{
     color: white;
     border-radius: 50px;
     padding: 5px 10px;
+    font-family: 'leaguespartan';
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover{
+        background-color: $navy;
+
+    }
 }
