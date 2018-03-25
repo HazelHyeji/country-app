@@ -19,7 +19,8 @@ class AppRouter extends Component {
           <Route path="/AllCountry" component={AllCountry} exact />
           <Route path="/AllCountry/:nationId" component={CountryDetail} />
           <Route path="/Quiz" component={Quiz} />
-          <Route path="/Search" component={Search} />
+          <Route path="/Search" component={Search} exact />
+          <Route path="/Search/:nationId" component={CountryDetail} />
         </Switch>
       </BrowserRouter>
     );

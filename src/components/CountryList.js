@@ -11,9 +11,9 @@ export default class CountryList extends Component {
     }
 
     render() {
-        const linkList = this.state.nations.map((nation, i) => {
+        const linkList = this.state.nations.map((nation) => {
             return (
-                <li key={i}>
+                <li key={nation.name}>
                     <Link to={`/AllCountry/${nation.name}`}>
                         <img src={nation.flag} width="100px" alt={nation.name}/>
                         <h1>{nation.name}</h1>
@@ -24,7 +24,7 @@ export default class CountryList extends Component {
         })
         return (
             <div>
-                <ul>
+                <ul className="countrylist">
                     {linkList}
                 </ul>
             </div>

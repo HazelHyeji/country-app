@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Data from '../countrydata';
+
 class QuizDemonym extends Component {
     constructor(props) {
         super(props);
