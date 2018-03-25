@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
 import Data from '../countrydata';
 
@@ -11,7 +11,7 @@ const CountryDetail = ({match}) => {
             <Link to="/AllCountry"><FontAwesome name="chevron-left" />Goback</Link>
             <div>
                 <h1>{nation.name}</h1>
-                <img src={nation.flag} width="200px" />
+                <img src={nation.flag} width="200px" alt={nation.name}/>
                 <p>이 나라 사람들은 {nation.demonym}</p>
                 <p>수도는 {nation.capital}</p>
                 <p>{nation.languages[0].name}라는 언어를 사용해요.</p>

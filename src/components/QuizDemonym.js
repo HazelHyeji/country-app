@@ -55,7 +55,7 @@ class QuizDemonym extends Component {
         return (
             <div>
                 <h1>{this.state.countryObj[this.state.randomQuiz].name}의 국민들은 영어로 어떻게 말할까요?</h1>
-                <img width="200px" src={this.state.countryObj[this.state.randomQuiz].flag} />
+                <img width="200px" src={this.state.countryObj[this.state.randomQuiz].flag} alt={this.state.countryObj[this.state.randomQuiz].name}/>
                 <h2>{this.state.countryObj[this.state.randomQuiz].name}</h2>
                 {
                     shuffle(answerArr).map(answer => (
