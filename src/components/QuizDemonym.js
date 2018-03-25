@@ -57,7 +57,6 @@ class QuizDemonym extends Component {
             <div>
                 <h1>{this.state.countryObj[this.state.randomQuiz].name}의 국민들은 영어로 어떻게 말할까요?</h1>
                 <img width="200px" src={this.state.countryObj[this.state.randomQuiz].flag} alt={this.state.countryObj[this.state.randomQuiz].name}/>
-                <h2>{this.state.countryObj[this.state.randomQuiz].name}</h2>
                 {
                     shuffle(answerArr).map(answer => (
                         <div>
@@ -68,7 +67,7 @@ class QuizDemonym extends Component {
                 {
                     this.state.showReview &&
                     <div>
-                        <h1>you got it right!{this.state.countryObj[this.state.randomQuiz].demonym} </h1>
+                    <h1>You got it right! {this.state.countryObj[this.state.randomQuiz].name}의 국민들은 {this.state.countryObj[this.state.randomQuiz].demonym}이에요! </h1>
                         <Link to="/Quiz/demonym"><button onClick={this.newQuiz}>Next</button></Link>
                     </div>
                 }

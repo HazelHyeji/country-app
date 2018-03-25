@@ -5,8 +5,8 @@ const Country = (props) => (
     <div className="country__container">
         {
             props.nations.map(nation => (
-                <Link to={`/search/${nation.name}`}>
-                    <div className="country" key={nation.name}>
+                <Link className="country" to={`/search/${nation.name}`}>
+                    <div key={nation.name}>
                         <h1>{nation.name}</h1>
                         <img src={nation.flag} width="200px" alt={nation.flag}/>
                         <p>Nation: {nation.demonym}</p>

@@ -15,15 +15,16 @@ export default class CountryList extends Component {
             return (
                 <li key={nation.name}>
                     <Link to={`/AllCountry/${nation.name}`}>
-                        <img src={nation.flag} width="100px" alt={nation.name}/>
-                        <h1>{nation.name}</h1>
+                        <img src={nation.flag} width="200px" alt={nation.name}/>
+                        <h2>{nation.name}</h2>
                     </Link>
                 </li>
             )
 
         })
         return (
-            <div>
+            <div class="countrylist__container">
+                <h1>All around the world!!</h1>
                 <ul className="countrylist">
                     {linkList}
                 </ul>
