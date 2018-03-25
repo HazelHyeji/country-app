@@ -4,7 +4,7 @@ import Buttons from './Buttons';
 export default class CountryApp extends Component {
   render() {
     return (
-     <div>
+     <div className="container">
         <Buttons/>
      </div>
     );

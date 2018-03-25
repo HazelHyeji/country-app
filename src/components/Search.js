@@ -27,13 +27,15 @@ export default class Search extends Component {
         })
         console.log(filteredNation)
         return (
-            <div>
+            <div className="search__container">
                 <GoBack />
-                <input
-                    type="text"
-                    placeholder="Search Country"
-                    onChange={this.onSearchChange}
-                />
+                <div className="search">
+                    <input
+                        type="text"
+                        placeholder="Search Country"
+                        onChange={this.onSearchChange}
+                    />
+                </div>
                 {this.state.searchfield ? <Country nations={filteredNation}/> : <h1>Search Country!</h1>}
             </div>
         );

@@ -1,10 +1,10 @@
 import React from "react";
 
 const Country = (props) => (
-    <div>
+    <div className="country__container">
         {
             props.nations.map(nation => (
-                <div key={nation.name}>
+                <div className="country" key={nation.name}>
                     <h1>{nation.name}</h1>
                     <img src={nation.flag} width="200px" alt={nation.flag}/>
                     <p>{nation.demonym}</p>

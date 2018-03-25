@@ -6,21 +6,26 @@
           url('../fonts/leaguespartan.woff2') format('woff2'),
           url('../fonts/leaguespartan.woff') format('woff'),
           url('../fonts/leaguespartan.ttf') format('truetype');
-}  
+} 
+*{
+    box-sizing: border-box;
+}
 body{
     background: $blue;
+    padding: 10px;
+    width: 100vw;
+    height: 100vh;
 }
-button{
-    background-color: $pink;
-    border: none;
-    color: white;
-    border-radius: 50px;
-    padding: 5px 10px;
-    font-family: 'leaguespartan';
-    cursor: pointer;
-    transition: all 0.3s;
-    &:hover{
-        background-color: $navy;
-
+a,h1,h2,h3,h4,h5,h6,p{
+    font-family: $league;
+}
+textarea, input, button { outline: none; }
+.goback{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    a{
+        color: white;
+        text-decoration: none;
     }
 }
