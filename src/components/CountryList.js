@@ -9,7 +9,8 @@ export default class CountryList extends Component {
             nations: Data,
         };
     }
-
+    // data ㅇㅔ서 가져온 나라를 loop 해서  nation 에 대한 url을 만든다
+    
     render() {
         const linkList = this.state.nations.map((nation) => {
             return (

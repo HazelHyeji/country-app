@@ -6,14 +6,14 @@ import QuizCountry from './QuizCountry';
 
 const Quiz = props => {
     return (
-        <div>
+        <div className="quiz__container">
             <GoBack />
             <ul>
                 <li>
-                    <Link to={`${props.match.url}/demonym`}>국민들</Link>
+                    <Link to={`${props.match.url}/demonym`}>국민</Link>
                 </li>
                 <li>
-                    <Link to={`${props.match.url}/country`}>나라들</Link>
+                    <Link to={`${props.match.url}/country`}>국기</Link>
                 </li>
             </ul>
             <Route path={`${props.match.url}/demonym`} component={QuizDemonym} />

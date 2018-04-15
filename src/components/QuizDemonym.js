@@ -54,7 +54,7 @@ class QuizDemonym extends Component {
             return array;
         }
         return (
-            <div>
+            <div className="quiz-sub__container">
                 <h1>{this.state.countryObj[this.state.randomQuiz].name}의 국민들은 영어로 어떻게 말할까요?</h1>
                 <img width="200px" src={this.state.countryObj[this.state.randomQuiz].flag} alt={this.state.countryObj[this.state.randomQuiz].name}/>
                 {
