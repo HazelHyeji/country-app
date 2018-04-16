@@ -22,6 +22,8 @@ export default [
             65.0
         ],
         "demonym": "Afghan",
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggafgh01.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/gg/ggafgh01.wav",
         "area": 652230.0,
         "gini": 27.8,
         "timezones": [
@@ -116,6 +118,7 @@ export default [
             19.9
         ],
         "demonym": "Ålandish",
+        "nameaudio": "https://media.merriam-webster.com/soundc11/a/aland01g.wav",
         "area": 1580.0,
         "gini": null,
         "timezones": [

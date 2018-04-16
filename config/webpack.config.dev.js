@@ -131,7 +131,7 @@ module.exports = {
           // smaller than specified limit in bytes as data URLs to avoid requests.
           // A missing `test` is equivalent to a match.
           {
-            test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+            test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/, /\.mp3$/],
             loader: require.resolve('url-loader'),
             options: {
               limit: 10000,
@@ -141,6 +141,13 @@ module.exports = {
           {
             test: /\.(ttf|eot|woff|woff2)$/,
             loader: "file-loader"
+          },
+          {
+            test: /\.mp3$/,
+            loader: 'file-loader',
+            query: {
+              name: 'static/media/[name].[hash:8].[ext]'
+            }
           },
           // Process JS with Babel.
           {
