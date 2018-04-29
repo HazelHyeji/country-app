@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Data from '../countrydata';
-
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import faVolume from '@fortawesome/fontawesome-free-solid/faVolumeUp'
 class CountryDetail extends Component {
     constructor(props) {
         super(props);
@@ -26,7 +27,7 @@ class CountryDetail extends Component {
                     <p>인구수는 <span>{nation.population}</span>명이에요</p>
                     <p>통화는 <span>{nation.currencies[0].name}</span>을 사용해요. 심볼은 {nation.currencies[0].symbol} 이렇구요. 코드는 {nation.currencies[0].code}랍니다</p>
                     <p><span>{nation.topLevelDomain}</span>이라는 도메인을 사용할 수 있어요!!! :D</p>
-                    <button onClick={() => this.onPlay(nation.nameaudio)}>play</button>
+                    <button onClick={() => this.onPlay(nation.nameaudio)}><FontAwesomeIcon icon={faVolume}/></button>
                 </div>
             </div>
         );
