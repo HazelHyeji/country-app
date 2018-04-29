@@ -4,6 +4,9 @@ export default [
         "topLevelDomain": [
             ".af"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggafgh01.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/gg/ggafgh01.wav",
+        "koreanpron": "아프가-니스탄",
         "alpha2Code": "AF",
         "alpha3Code": "AFG",
         "callingCodes": [
@@ -22,8 +25,6 @@ export default [
             65.0
         ],
         "demonym": "Afghan",
-        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggafgh01.wav",
-        "demonymaudio": "https://media.merriam-webster.com/soundc11/gg/ggafgh01.wav",
         "area": 652230.0,
         "gini": 27.8,
         "timezones": [
@@ -98,6 +99,8 @@ export default [
         "topLevelDomain": [
             ".ax"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/a/aland01g.wav",
+        "koreanpron": "올란드 혹은 알란드",
         "alpha2Code": "AX",
         "alpha3Code": "ALA",
         "callingCodes": [
@@ -118,7 +121,6 @@ export default [
             19.9
         ],
         "demonym": "Ålandish",
-        "nameaudio": "https://media.merriam-webster.com/soundc11/a/aland01g.wav",
         "area": 1580.0,
         "gini": null,
         "timezones": [
@@ -176,6 +178,9 @@ export default [
         "topLevelDomain": [
             ".al"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggalba05.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/a/albani01.wav",
+        "koreanpron": "알배-니^아",
         "alpha2Code": "AL",
         "alpha3Code": "ALB",
         "callingCodes": [
@@ -256,6 +261,9 @@ export default [
         "topLevelDomain": [
             ".dz"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggalge02.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/gg/ggalge03.wav",
+        "koreanpron": "알줴-리안",
         "alpha2Code": "DZ",
         "alpha3Code": "DZA",
         "callingCodes": [
@@ -354,6 +362,8 @@ export default [
         "topLevelDomain": [
             ".as"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggsamo01.wav",
+        "koreanpron": "싸모아",
         "alpha2Code": "AS",
         "alpha3Code": "ASM",
         "callingCodes": [
@@ -428,6 +438,9 @@ export default [
         "topLevelDomain": [
             ".ad"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggando01.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/gg/ggando02.wav",
+        "koreanpron": "안^도라",
         "alpha2Code": "AD",
         "alpha3Code": "AND",
         "callingCodes": [
@@ -496,6 +509,9 @@ export default [
         "topLevelDomain": [
             ".ao"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggango01.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/gg/ggango02.wav",
+        "koreanpron": "앵^골라",
         "alpha2Code": "AO",
         "alpha3Code": "AGO",
         "callingCodes": [
@@ -579,6 +595,9 @@ export default [
         "topLevelDomain": [
             ".ai"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggangu01.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/gg/ggangu02.wav",
+        "koreanpron": "앵^귈라",
         "alpha2Code": "AI",
         "alpha3Code": "AIA",
         "callingCodes": [
@@ -644,6 +663,8 @@ export default [
         "topLevelDomain": [
             ".aq"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/gganta10.wav",
+        "koreanpron": "앤트알^디카",
         "alpha2Code": "AQ",
         "alpha3Code": "ATA",
         "callingCodes": [
@@ -727,6 +748,9 @@ export default [
         "topLevelDomain": [
             ".ag"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/gganti04.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/gg/gganti05.wav",
+        "koreanpron": "앤티과 앤 발-부다",
         "alpha2Code": "AG",
         "alpha3Code": "ATG",
         "callingCodes": [
@@ -803,6 +827,8 @@ export default [
         "topLevelDomain": [
             ".ar"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggarge03.wav",
+        "koreanpron": "아-r젠티나",
         "alpha2Code": "AR",
         "alpha3Code": "ARG",
         "callingCodes": [
@@ -894,6 +920,9 @@ export default [
         "topLevelDomain": [
             ".am"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggarme01.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/a/armeni01.wav",
+        "koreanpron": "알미니아",
         "alpha2Code": "AM",
         "alpha3Code": "ARM",
         "callingCodes": [
@@ -980,6 +1009,9 @@ export default [
         "topLevelDomain": [
             ".aw"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggarub01.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/gg/ggaru01v.wav",
+        "koreanpron": "아-루바",
         "alpha2Code": "AW",
         "alpha3Code": "ABW",
         "callingCodes": [
@@ -1051,6 +1083,9 @@ export default [
         "topLevelDomain": [
             ".au"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggaust04.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/a/austra04.wav",
+        "koreanpron": "어스트레-리아",
         "alpha2Code": "AU",
         "alpha3Code": "AUS",
         "callingCodes": [
@@ -1123,6 +1158,9 @@ export default [
         "topLevelDomain": [
             ".at"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggaust07.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/a/ggaust08.wav",
+        "koreanpron": "어-스트리아",
         "alpha2Code": "AT",
         "alpha3Code": "AUT",
         "callingCodes": [
@@ -1207,6 +1245,9 @@ export default [
         "topLevelDomain": [
             ".az"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/gg/ggazer01.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/a/azerb01t.wav",
+        "koreanpron": "아zㅓㄹ바이잔",
         "alpha2Code": "AZ",
         "alpha3Code": "AZE",
         "callingCodes": [
@@ -1278,6 +1319,9 @@ export default [
         "topLevelDomain": [
             ".bs"
         ],
+        "nameaudio": "https://media.merriam-webster.com/soundc11/b/baham01g.wav",
+        "demonymaudio": "https://media.merriam-webster.com/soundc11/gg/ggbaha02.wav",
+        "koreanpron": "바하마스",
         "alpha2Code": "BS",
         "alpha3Code": "BHS",
         "callingCodes": [

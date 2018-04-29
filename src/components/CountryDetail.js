@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import FontAwesome from 'react-fontawesome';
 import Data from '../countrydata';
 
 class CountryDetail extends Component {
@@ -16,7 +15,7 @@ class CountryDetail extends Component {
         const nation = Data.find(n => n.name === this.props.match.params.nationId);
         return (
             <div>
-                <button className="detail__button" onClick={this.props.history.goBack}><FontAwesome name="chevron-left" />Goback</button>
+                <button className="detail__button" onClick={this.props.history.goBack}>Goback</button>
                 <h1 className="detail__title">{nation.name}</h1>
                 <div className="detail__container">
                     <img src={nation.flag} width="200px" alt={nation.name} />
